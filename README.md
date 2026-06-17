@@ -2,6 +2,8 @@
 
 A multi-tool AI agent that helps users find secondhand clothing and figure out how to wear it. FitFindr takes a natural language query, searches a mock thrift dataset, suggests outfit combinations using the user's wardrobe, assesses the price, and generates a shareable fit card — all in one flow.
 
+[DEMO](https://www.loom.com/share/d353e5c03df844bc9922af9f4a370c1d)
+
 ---
 
 ## Setup
