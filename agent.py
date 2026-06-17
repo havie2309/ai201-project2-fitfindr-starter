@@ -106,6 +106,8 @@ def run_agent(query: str, wardrobe: dict) -> dict:
     # Step 2: Load style profile from disk
     profile = load_style_profile()
     session["style_profile"] = profile
+    update_style_profile(session["selected_item"], outfit)
+
 
     # Step 3: Parse query
     parsed = _parse_query(query)
